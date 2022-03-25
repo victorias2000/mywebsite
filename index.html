@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria's Resume Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+    
+     <body class="one" onload="promptfuntion()">
+           <table id="references"><table>
+
+           </ul>
+         <script>
+
+             function promptfuntion() {
+                 let person = prompt("please enter your name");
+            let time = new Date().getHours();
+
+            console.log("I can't believe it's" + time)
+            let greeting = "";
+
+            if (time <12){
+                greeting = "Good morning, "; 
+                console.log(greeting);
+
+            }else if (time <17){
+                greeting = "Good Afternoon, ";
+                console.log(greeting);
+            }else { 
+                greeting = "Good night, ";
+                console.log(greeting);
+
+            }
+            alert(greeting + person + "!" + "\nthank you for receivewing my resume site.");
+
+             }
+         </script>
+        <nav class="sticky-top navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Victoria's website</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Porftolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <br> 
+    
+        <div> 
+        <h1 style="text-align: center; background-color: rgba(122, 40, 199, 0.507);"> Victoria palacios's resume </h1>
+        <img width="auto" height="300px" src="mypicture.JPG">
+        </div>
+
+<hr>
+<section>
+
+    <h3 class="box">Education</h3>
+         <p class="box"><span> May 2018, U.E. Luis Beltran Prieto Figueroa - high school degree.</span>
+         <span>2021, Salt lake community college-ESL Course certificate advance īī.</span></p>
+
+</section>
+
+<hr>
+
+<section>
+
+    <h3 class="box">Skills</h3>
+
+    <ul class="box">
+        <li>Critical Thinking</li>
+        <li>Bilingual (Spanish-english)</li> 
+        <li>Interpersonal communication</li>
+        <li>Customer service</li>
+        <li>Problem solving</li>
+        <li>Team work</li>
+        <li>Microsoft Outlook, Excel, and Word</li>
+        <li>Time Manage</li>
+
+    </ul>
+
+</section>
+
+<hr>
+    
+<section>
+
+    <h3 class="box">Work Experience</h3>
+    <p class="box">January 2020- current job 2022<span> Rakuten Super Logistics- Salt lake city, Utah</span><span>Returns Department</span></p>
+        
+<ul class="box">
+        <li>Responsible for receiving, verifying and checking the condition of a merchandise from the customer </li>
+        <li>Ensure processing efficiency </li>
+        <li> Prepare the merchandise to be reselling or restocking</li>
+        <li>Train new people to make the returns process  accurate</li>
+        <li>Manage records and important information from customers</li>
+        <li>Manage excel, spreadsheet and google</li>
+
+    </ul>
+</p>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
